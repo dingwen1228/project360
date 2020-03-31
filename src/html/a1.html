@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <script>
+        $.ajax({
+            url: 'http://localhost/project-360/php/index-rander.php',
+            dataType: 'json'
+        }).done(function (d) {
+            console.log(d.data1);
+        })
+    </script>
+</body>
+
+</html>

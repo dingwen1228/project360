@@ -1,0 +1,251 @@
+.header-box-title {
+  border-left: 1px solid #979797;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 8px;
+  color: #333;
+  line-height: 24px;
+  margin-top: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+#main {
+  background-color: #eee;
+}
+
+#main .main {
+  min-height: 200px;
+  padding-top: 10px;
+}
+
+#main .main .common-label {
+  color: #333;
+  font-weight: 700;
+}
+
+#main .main .common-checkbox {
+  cursor: pointer;
+  display: inline-block;
+  height: 13px;
+  vertical-align: middle;
+  width: 13px;
+}
+
+#main .main .tables {
+  color: #333333;
+  font-size: 14px;
+  width: 1020px;
+  text-align: center;
+}
+
+#main .main .tables thead {
+  margin: 0 auto;
+  background: white;
+  border: none;
+  font-weight: 700;
+}
+
+#main .main .tables thead tr {
+  width: 1020px;
+  height: 50px;
+}
+
+#main .main .tables thead tr .ck-wrap {
+  width: 62px;
+}
+
+#main .main .tables thead tr .youhui {
+  background: url(https://p2.ssl.qhimg.com/t01a4c2182bcdd8ea59.png) no-repeat;
+  color: #f33;
+  cursor: pointer;
+  float: left;
+  font-size: 12px;
+  height: 21px;
+  line-height: 21px;
+  margin-left: 10px;
+  position: relative;
+  text-align: center;
+  text-indent: 0;
+  width: 55px;
+}
+
+#main .main .tables tbody {
+  background: white;
+}
+
+#main .main .tables tbody .cart-item {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+#main .main .tables tbody .cart-item .check_goods {
+  line-height: 104px;
+  position: relative;
+  text-align: center;
+  width: 60px;
+  float: left;
+}
+
+#main .main .tables tbody .cart-item .goods_info-td {
+  text-align: left;
+  width: 360px;
+  position: relative;
+}
+
+#main .main .tables tbody .cart-item .goods_info-td .goods-info {
+  width: 320px;
+}
+
+#main .main .tables tbody .cart-item .goods_info-td .goods-info-left {
+  display: inline-block;
+  color: #666;
+}
+
+#main .main .tables tbody .cart-item .goods_info-td .goods-info-left img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 68px;
+  height: 68px;
+}
+
+#main .main .tables tbody .cart-item .goods_info-td figcaption {
+  float: right;
+  padding-top: 20px;
+  width: 200px;
+  height: 68px;
+  margin-left: 10px;
+}
+
+#main .main .tables tbody .cart-item .goods_info-td figcaption .item-title {
+  height: 40px;
+  width: 230px;
+  color: #333;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#main .main .tables tbody .cart-item .goods_num {
+  height: 100px;
+  position: relative;
+  text-align: center;
+}
+
+#main .main .tables tbody .cart-item .goods_num .mod-modifier {
+  border: 1px solid #dddddd;
+  height: 20px;
+  width: 96px;
+  margin-right: 20px;
+}
+
+#main .main .tables tbody .cart-item .goods_num .mod-modifier a {
+  font-size: 18px;
+  line-height: 20px;
+  width: 20px;
+  display: inline-block;
+  height: 20px;
+  text-align: center;
+}
+
+#main .main .tables tbody .cart-item .goods_num .mod-modifier .modifier-value {
+  line-height: 19px;
+  text-align: center;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  outline: none;
+  vertical-align: top;
+  width: 35px;
+}
+
+#main .main .tables tbody .cart-item .item_total {
+  width: 116px;
+}
+
+#main .main .tables tbody .cart-item .item_total .total {
+  color: #f33;
+}
+
+#main .main .tables tbody .cart-item .js_del {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 50px;
+}
+
+#main .main .tables tbody .cart-item .js_del:hover {
+  background: linear-gradient(180deg, #ff3333 0, #ff6633 100%);
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#main .main .stat {
+  bottom: 0;
+  position: sticky;
+}
+
+#main .main .stat .statistics {
+  background: white;
+  border: 1px solid #eaebec;
+  font-size: 14px;
+  height: 70px;
+  line-height: 70px;
+  margin-top: 15px;
+  position: relative;
+  text-indent: 10px;
+  width: 1020px;
+}
+
+#main .main .stat .statistics .delCheck {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#main .main .stat .statistics .cart-button {
+  background: linear-gradient(180deg, #ff3333 0, #ff6633 100%);
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  right: 40px;
+  text-align: center;
+  text-indent: 0;
+  top: 10px;
+  width: 160px;
+  display: block;
+}
+
+#main .main .stat .statistics .description {
+  position: absolute;
+  right: 260px;
+  text-align: right;
+  top: 15px;
+}
+
+#main .main .stat .statistics .description .main-c {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#main .main .stat .statistics .description .main-c .jnum {
+  color: #f33;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#main .main .stat .statistics .description .main-c .cart-total {
+  color: #f33;
+  font-size: 14px;
+}
+
+#main .main .stat .statistics .description .cart-sale {
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+}
